@@ -1,10 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Auckland Battletech</title>
-</head>
-<body>
-  <h1>Battletech players of Auckland</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Battletech players of Auckland</title>
+    <meta name="description" content="Classic Battletech players of Auckland" />
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta
+      property="og:title"
+      content="Classic Battletech players of Auckland"
+    />
+    <meta
+      property="og:description"
+      content="Classic battletech players meeting weekly in Auckland"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://mharrisondev.github.io/auckland-battletech/"
+    />
+    <meta
+      property="og:image"
+      content="https://mharrisondev.github.io/auckland-battletech/preview.jpg"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Classic Battletech players of Auckland"
+    />
+    <meta
+      name="twitter:description"
+      content="Weekly meetups in Auckland for Classic Battletech enthusiasts. Come join us!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://mharrisondev.github.io/auckland-battletech/preview.jpg"
+    />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Classic Battletech players of Auckland",
+        "url": "https://mharrisondev.github.io/auckland-battletech/",
+        "logo": "https://mharrisondev.github.io/auckland-battletech/logo.png",
+        "sameAs": ["https://facebook.com/yourgroup"],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Auckland",
+          "addressRegion": "NZ",
+          "addressCountry": "New Zealand"
+        },
+        "description": "Classic Battletech players of Auckland that meets weekly"
+      }
+    </script>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-image: url("./background.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <main class="min-h-screen flex items-center justify-center p-6">
+      <div
+        class="max-w-3xl w-full bg-white/90 backdrop-blur-sm shadow-lg rounded-2xl p-10"
+      >
+        <section class="text-center mb-8">
+          <h1 class="text-4xl font-bold mb-4">
+            AMC Classic Battletech Players
+          </h1>
+          <h3>Auckland Model Citizens Wargaming Club</h3>
+
+          <img
+            src="./clubPhoto1.webp"
+            alt="Battletech game day"
+            class="w-full max-w-lg h-auto mx-auto rounded-lg shadow-lg mt-8 mb-8"
+          />
+        </section>
+
+        <section class="mb-8">
+          <h2 class="text-2xl font-semibold border-b border-gray-300 pb-2 mb-4">
+            About Us
+          </h2>
+          <p>
+            We’re a community of Classic Battletech enthusiasts in Auckland who
+            meet weekly at
+            <a
+              href="https://hobbymaster.co.nz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600"
+              >HobbyMaster</a
+            >
+            in
+            <a
+              href="https://maps.app.goo.gl/kP7q65CqtX6bmW4n7"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600"
+              >Penrose Auckland</a
+            >
+            to play every Tuesday; from ~5:30pm till closing at 10pm.
+          </p>
+          <p>
+            We play the Classic rule set of Battletech, using the
+            <a
+              href="https://store.catalystgamelabs.com/products/battletech-battlemech-manual-book-pdf-combo"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600"
+              >Battlemech Manual</a
+            >
+            and/or
+            <a
+              href="https://store.catalystgamelabs.com/products/battletech-total-warfare-pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600"
+              >Total Warfare</a
+            >.
+          </p>
+          <p>
+            A quick-start sample of the Battletech rules can be found on the
+            <a
+              href="https://battletech.com/qsr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600"
+              >Official Website</a
+            >
+          </p>
+        </section>
+
+        <section class="mb-8">
+          <h2 class="text-2xl font-semibold border-b border-gray-300 pb-2 mb-4">
+            Game formats
+          </h2>
+          <p>
+            We run a modified version of the Battletech Chaos Campaign, as well
+            as casual pick up games.
+          </p>
+          <img
+            src="./gamePhoto1.webp"
+            alt="Battletech game day"
+            class="w-full max-w-lg h-auto mx-auto rounded-lg shadow-lg mt-8 mb-8"
+          />
+        </section>
+
+        <section class="mb-8">
+          <h2 class="text-2xl font-semibold border-b border-gray-300 pb-2 mb-4">
+            How to get in contact
+          </h2>
+          <p>
+            All club communications are within the AMC (Auckland Model Citizens)
+            Facebook group, feel free to join!
+            <a
+              href="https://www.facebook.com/share/g/15bckHv4xM/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600"
+              >Link to AMC</a
+            >
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl font-semibold border-b border-gray-300 pb-2 mb-4">
+            Motivation
+          </h2>
+          <p>I created this simple website for search engine optimisation</p>
+          <p>
+            When I grew an interest in picking up Classic Battletech as a hobby,
+            I had a remarkably difficult time finding a group within Auckland.
+            The majority of table-top hobby groups organize themselves within
+            Facebook groups, often private groups; which can be difficult to
+            find and have poor search engine optimisation. This is my attempt to
+            get some visibility on Google and drive people whom are interested
+            in the right direction.
+          </p>
+        </section>
+      </div>
+      <div
+        class="fixed bottom-4 left-4 bg-black/60 text-white text-sm px-3 py-1 rounded-lg"
+      >
+        Background artwork by
+        <a
+          href="https://www.deviantart.com/spooky777"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="underline hover:text-gray-300"
+        >
+          Spooky777.
+        </a>
+      </div>
+    </main>
+  </body>
 </html>
